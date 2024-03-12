@@ -1,0 +1,83 @@
+{
+  "id": "alternative-exhaustion-5e",
+  "title": "Alternative Exhaustion",
+  "version": "AUTOMATIC",
+  "authors": [
+    {
+      "name": "Zhell",
+      "url": "https://github.com/krbz999",
+      "discord": "zhell9201",
+      "ko-fi": "https://ko-fi.com/zhell",
+      "patreon": "https://patreon.com/zhell"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "module/setup.mjs"
+  ],
+  "styles": [
+    "module/styles.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "maximum": "3.1.9"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css"
+      ],
+      "paths": [
+        "module/styles.css"
+      ]
+    }
+  },
+  "url": "https://github.com/krbz999/alternative-exhaustion-5e",
+  "license": "https://raw.githubusercontent.com/krbz999/alternative-exhaustion-5e/main/LICENSE",
+  "manifest": "https://github.com/krbz999/alternative-exhaustion-5e/releases/latest/download/module.json",
+  "download": "AUTOMATIC",
+  "description": "A small module for enabling alternative exhaustion rules in the dnd5e system.",
+  "packs": [
+    {
+      "name": "exhaustion",
+      "label": "Exhaustion",
+      "path": "packs/exhaustion",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Exhaustion",
+      "sorting": "a",
+      "color": "#5C0B8E",
+      "folders": [],
+      "packs": [
+        "exhaustion"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "module/langs/en.json",
+      "flags": {}
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.dnd5e2.sheet.actor.character [data-prop="system.attributes.exhaustion"] {
+  position: relative;
+
+  .pip:nth-child(even) {
+    position: absolute;
+    left: calc(16px + 3px + 0.3125rem/2);
+    top: -0.3125rem;
+  }
+
+  .pip:nth-child(4) {
+    left: calc(32px + 8px + 0.3125rem/2);
+  }
+}
