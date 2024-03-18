@@ -1,4 +1,4 @@
-This is a small module to add alternative rules for Exhaustion in the dnd5e system. When the module is enabled, exhaustion will have 10 levels instead of 6, and it will not cause the default effects such as halved or limited movement.
+This is a small module to add alternative rules for Exhaustion in the dnd5e system. When the module is enabled, exhaustion will have 10 levels instead of 6, and it will not cause the default effects such as halved or limited movement. Instead, each level of exhaustion adds a -1 penalty to all d20 rolls and spell save DCs.
 
 # Setup
 Head into the module settings and decide whether you want to manually apply the attribute in actors' Special Traits.
