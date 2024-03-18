@@ -1,0 +1,4 @@
+{
+  "ALT_EXH.SETTING_MANUAL": "Manual Adjustment",
+  "ALT_EXH.SETTING_MANUAL_HINT": "Adjust exhaustion manually on each actor by adding '-@attributes.exhaustion' in applicable fields in Special Traits? Recommended."
+}
